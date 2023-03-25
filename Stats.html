@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stats-Rangking</title>
+
+        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+        <link href="src/css/fontawesome-all.css" rel="stylesheet" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link href="src/css/styles.css" rel="stylesheet" />
+        
+        <style>
+            body {
+                background-color: #120227;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".fixed-top">
+
+        <!-- Navigation -->
+        <nav class="navbar fixed-top">
+            <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
+                
+                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
+                    <img src="img/NFT Everywhere.svg" alt="" class="h-8" />
+                </a>
+
+                <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-white" type="button" data-toggle="offcanvas">
+                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+                        <li>
+                            <a class="nav-link page-scroll active" href="Explore.html">Explore <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="Stats.html">Stats</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="https://github.com/mimi937">About Me</a>
+                        </li>
+                        <li>
+                            <a class="btn-solid-lg nav-link page-scroll" href="#download">Login</a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+        </nav> 
+
+        <!-- Header -->
+        <header>
+            <img src="/img/Stats-Ranking.svg" alt="">
+        </header> 
+
+        <!-- Footer -->
+        <footer class="bg-#120227 dark:bg-gray-900">
+            <div class="mx-auto w-full container p-4 sm:p-6">
+                <div class="md:flex md:justify-between" style="margin-right: -20px;">
+                    <div class="mb-6 md:mb-0">
+                        <a href="" class="flex items-center">
+                            <img src="/img/NFT Everywhere.svg" class="h-8 mr-3" alt="" />
+                        </a>
+                    </div>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-5" style="
+                    margin-left: 50px;">
+                        <div style="margin-right: 20px;">
+                            <h2 class="mb-6 text-sm font-semibold text-pink-600 uppercase dark:text-white">Resources</h2>
+                            <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://flowbite.com/" class="hover:underline">Digital Arts</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Photography</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Trading Card</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Music</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-pink-600 uppercase dark:text-white">Account</h2>
+                            <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://flowbite.com/" class="hover:underline">Login</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-pink-600 uppercase dark:text-white">Stats</h2>
+                            <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://flowbite.com/" class="hover:underline">Ranking</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Activity</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-pink-600 uppercase dark:text-white">Company</h2>
+                            <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://flowbite.com/" class="hover:underline">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Help</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Terms of Services</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-pink-600 uppercase dark:text-white">Contact</h2>
+                            <ul class="text-gray-600 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="https://flowbite.com/" class="hover:underline">(022) 123 456</a>
+                                </li>
+                                <li>
+                                    <a href="https://tailwindcss.com/" class="hover:underline">hello@nfteverywhere.com</a>
+                                </li>
+                                <li>
+                                    <img src="/img/Frame 17.svg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="src/js/jquery.min.js"></script> 
+        <script src="src/js/jquery.easing.min.js"></script>
+        <script src="src/js/scripts.js"></script>
+    </body>
+</html>
